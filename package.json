@@ -1,0 +1,35 @@
+{
+  "name": "xsdmodule",
+  "version": "0.0.0",
+  "description": "XSD DOM assembler library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristov/xsdmodule.git"
+  },
+  "keywords": [
+    "xsd",
+    "xml",
+    "dom",
+    "assembler",
+    "schema",
+    "definition",
+    "element",
+    "attribute"
+  ],
+  "author": "Vyacheslav Aristov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aristov/xsdmodule/issues"
+  },
+  "homepage": "https://github.com/aristov/xsdmodule#readme",
+  "dependencies": {
+    "dommodule": "aristov/dommodule"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
