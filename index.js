@@ -1,6 +1,6 @@
 import { all, attribute, complexType, element, schema, simpleContent } from './lib'
 
-export default schema(element({
+const assembler = schema(element({
     name : 'schedule',
     children : complexType(all(element({
         name : 'reserve',
@@ -12,3 +12,5 @@ export default schema(element({
         ]))
     })))
 }))
+
+console.log(assembler, assembler.node)
