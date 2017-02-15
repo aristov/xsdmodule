@@ -1,7 +1,7 @@
 <schedule
         xmlns="https://github.com/aristov/schedule"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://github.com/aristov/schedule schedule-schema.xsd">
+        xsi:schemaLocation="https://github.com/aristov/schedule schedule.xsd">
     <reserve time="2017-01-30T12:00:00" duration="180" detail="Neo">Виктор Якушев</reserve>
     <reserve time="2017-01-30T18:00:00" duration="180" detail="Neo">Альберт Мусаелян</reserve>
     <reserve time="2017-01-30T21:00:00" duration="180" detail="Neo">Артур Шмидт 1200</reserve>

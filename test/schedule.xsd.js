@@ -1,6 +1,7 @@
-import { all, attribute, complexType, element, schema, simpleContent } from 'xsdmodule'
+import { document } from 'dommodule'
+import { all, attribute, complexType, element, schema, simpleContent } from '../lib'
 
-export default schema(element({
+const assembler = schema(element({
     name : 'schedule',
     children : complexType(all(element({
         name : 'reserve',
@@ -12,3 +13,5 @@ export default schema(element({
         ]))
     })))
 }))
+
+document(window.document).init({ documentElement : assembler })
