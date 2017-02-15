@@ -1,3 +1,4 @@
+import { document } from 'dommodule'
 import { all, attribute, complexType, element, schema, simpleContent } from './lib'
 
 const assembler = schema(element({
@@ -13,4 +14,4 @@ const assembler = schema(element({
     })))
 }))
 
-console.log(assembler, assembler.node)
+document(window.document).init({ documentElement : assembler })
