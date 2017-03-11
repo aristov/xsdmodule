@@ -53,4 +53,5 @@
     <reserve time="2017-02-02T21:00:00" duration="180" detail="Piano">Сектор</reserve>
     <reserve time="2017-02-02T18:00:00" duration="240" detail="Sol">Чулошников</reserve>
     <reserve time="2017-02-02T19:00:00" duration="60" detail="Neo">Марина</reserve>
+    <style xmlns="http://www.w3.org/1999/xhtml" type="text/css"/>
 </schedule>
